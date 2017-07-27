@@ -54,8 +54,8 @@
                                         <state key="normal" image="smackBurger"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smack" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VNB-lo-0m6">
-                                        <rect key="frame" x="161" y="45.5" width="52" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <rect key="frame" x="148.5" y="41.5" width="79" height="29"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -137,12 +137,14 @@
                             <constraint firstItem="DXr-nT-S8b" firstAttribute="top" secondItem="GTy-Td-lj8" secondAttribute="bottom" constant="20" id="GF0-Cj-V0i"/>
                             <constraint firstItem="AXh-yl-XU2" firstAttribute="trailing" secondItem="rHm-8C-h5N" secondAttribute="trailing" constant="72" id="Gbt-vf-J5H"/>
                             <constraint firstItem="arH-K1-xf7" firstAttribute="centerY" secondItem="HRb-j9-ID1" secondAttribute="centerY" id="Io4-Zu-1e6"/>
-                            <constraint firstItem="GTy-Td-lj8" firstAttribute="leading" secondItem="AXh-yl-XU2" secondAttribute="leading" id="MVM-U6-PGg"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="DXr-nT-S8b" secondAttribute="trailing" constant="20" symbolic="YES" id="MOA-OD-ygF"/>
                             <constraint firstItem="arH-K1-xf7" firstAttribute="leading" secondItem="HRb-j9-ID1" secondAttribute="trailing" constant="20" id="Ole-UR-8p6"/>
                             <constraint firstItem="Or7-0d-qzc" firstAttribute="leading" secondItem="AXh-yl-XU2" secondAttribute="leading" id="Op8-NS-VFd"/>
                             <constraint firstItem="rHm-8C-h5N" firstAttribute="centerY" secondItem="DXr-nT-S8b" secondAttribute="centerY" id="QQS-k4-gwe"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="GTy-Td-lj8" secondAttribute="trailing" constant="20" symbolic="YES" id="RKG-RS-GKn"/>
                             <constraint firstItem="GTy-Td-lj8" firstAttribute="leading" secondItem="AXh-yl-XU2" secondAttribute="leading" constant="16" id="UWM-FA-spI"/>
                             <constraint firstItem="AXh-yl-XU2" firstAttribute="bottom" secondItem="HRb-j9-ID1" secondAttribute="bottom" constant="20" id="V3o-el-1WP"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="arH-K1-xf7" secondAttribute="trailing" constant="20" symbolic="YES" id="X0M-cg-ttq"/>
                             <constraint firstItem="HRb-j9-ID1" firstAttribute="top" secondItem="Or7-0d-qzc" secondAttribute="bottom" constant="20" id="XPI-xX-OqJ"/>
                             <constraint firstItem="Or7-0d-qzc" firstAttribute="top" secondItem="rHm-8C-h5N" secondAttribute="bottom" constant="20" id="c2n-B3-xwR"/>
                             <constraint firstItem="HRb-j9-ID1" firstAttribute="leading" secondItem="AXh-yl-XU2" secondAttribute="leading" constant="16" id="gGA-Bc-3cJ"/>

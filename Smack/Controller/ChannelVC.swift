@@ -10,6 +10,11 @@ import UIKit
 
 class ChannelVC: UIViewController {
 
+    // Outlets
+    @IBOutlet weak var loginButton: UIButton!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,5 +22,10 @@ class ChannelVC: UIViewController {
         
     }
 
-
+    @IBAction func loginButtonPressed(_ sender: UIButton) {
+        
+        performSegue(withIdentifier: TO_LOGIN, sender: nil)
+        
+    }
+    
 }

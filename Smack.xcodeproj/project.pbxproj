@@ -11,6 +11,7 @@
 		27B3D31C1F29640D00D1C9F2 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B3D31B1F29640D00D1C9F2 /* ChatVC.swift */; };
 		27B3D31E1F29641D00D1C9F2 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B3D31D1F29641D00D1C9F2 /* ChannelVC.swift */; };
 		27B3D3221F296F3800D1C9F2 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B3D3201F296ACE00D1C9F2 /* SWRevealViewController.m */; };
+		27B3D3241F29B76F00D1C9F2 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B3D3231F29B76F00D1C9F2 /* GradientView.swift */; };
 		27F295921F294D0E006AE5FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F295911F294D0E006AE5FD /* AppDelegate.swift */; };
 		27F295971F294D0E006AE5FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F295951F294D0E006AE5FD /* Main.storyboard */; };
 		27F295991F294D0E006AE5FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F295981F294D0E006AE5FD /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		27B3D31F1F296ACD00D1C9F2 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		27B3D3201F296ACE00D1C9F2 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		27B3D3211F296B1C00D1C9F2 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
+		27B3D3231F29B76F00D1C9F2 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		27F2958E1F294D0E006AE5FD /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F295911F294D0E006AE5FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27F295961F294D0E006AE5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		27B3D3191F2963CE00D1C9F2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				27B3D3231F29B76F00D1C9F2 /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			files = (
 				27B3D31C1F29640D00D1C9F2 /* ChatVC.swift in Sources */,
 				27B3D31E1F29641D00D1C9F2 /* ChannelVC.swift in Sources */,
+				27B3D3241F29B76F00D1C9F2 /* GradientView.swift in Sources */,
 				27F295921F294D0E006AE5FD /* AppDelegate.swift in Sources */,
 				27B3D3221F296F3800D1C9F2 /* SWRevealViewController.m in Sources */,
 			);

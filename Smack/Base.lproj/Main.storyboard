@@ -183,6 +183,7 @@
                     </view>
                     <connections>
                         <outlet property="loginButton" destination="arH-K1-xf7" id="3gZ-ws-wQ8"/>
+                        <outlet property="userImage" destination="HRb-j9-ID1" id="nXU-48-LJb"/>
                         <segue destination="odi-3g-Rsw" kind="show" identifier="toLogin" id="xpB-3l-2in"/>
                     </connections>
                 </viewController>

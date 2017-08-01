@@ -85,7 +85,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DTf-BF-aUk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="870" y="533"/>
+            <point key="canvasLocation" x="870" y="599"/>
         </scene>
         <!--ChannelVC-->
         <scene sceneID="cnW-QS-h3T">
@@ -140,7 +140,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="#general" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cx0-Sz-adk">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#general" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cx0-Sz-adk">
                                                     <rect key="frame" x="28" y="12.5" width="66" height="20"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -150,7 +150,7 @@
                                             <constraints>
                                                 <constraint firstItem="cx0-Sz-adk" firstAttribute="centerY" secondItem="ymn-qJ-sIs" secondAttribute="centerY" id="2HE-0i-3Nj"/>
                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cx0-Sz-adk" secondAttribute="trailingMargin" id="dbE-BW-UmX"/>
-                                                <constraint firstItem="cx0-Sz-adk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ymn-qJ-sIs" secondAttribute="leadingMargin" id="o32-UO-Atq"/>
+                                                <constraint firstItem="cx0-Sz-adk" firstAttribute="leading" secondItem="ymn-qJ-sIs" secondAttribute="leadingMargin" constant="20" id="ev2-mx-QEm"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>

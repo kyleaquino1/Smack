@@ -70,18 +70,41 @@
                                     <constraint firstItem="VNB-lo-0m6" firstAttribute="centerY" secondItem="vku-Qu-b85" secondAttribute="centerY" id="vWj-gJ-4nd"/>
                                 </constraints>
                             </view>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Message:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GSs-Dr-507">
+                                <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="bvk-Du-ek5"/>
+                                </constraints>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZAq-QP-4PE">
+                                <rect key="frame" x="337" y="632" width="30" height="30"/>
+                                <state key="normal" image="send"/>
+                                <connections>
+                                    <action selector="sendMessagePressed:" destination="z46-15-JUR" eventType="touchUpInside" id="vdJ-7c-S42"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="GSs-Dr-507" firstAttribute="bottom" secondItem="cyl-X9-nzy" secondAttribute="bottom" id="463-mT-8Pa"/>
                             <constraint firstItem="s30-CB-PUd" firstAttribute="leading" secondItem="cyl-X9-nzy" secondAttribute="leading" id="A9c-ip-f9Z"/>
+                            <constraint firstItem="GSs-Dr-507" firstAttribute="leading" secondItem="cyl-X9-nzy" secondAttribute="leading" id="Oth-vU-M35"/>
+                            <constraint firstItem="ZAq-QP-4PE" firstAttribute="centerY" secondItem="GSs-Dr-507" secondAttribute="centerY" id="WV1-Ry-ePp"/>
                             <constraint firstItem="s30-CB-PUd" firstAttribute="top" secondItem="67C-UZ-T9L" secondAttribute="top" id="Wkr-rt-eP7"/>
                             <constraint firstItem="cyl-X9-nzy" firstAttribute="trailing" secondItem="s30-CB-PUd" secondAttribute="trailing" id="ZTf-Fn-RV8"/>
+                            <constraint firstItem="cyl-X9-nzy" firstAttribute="trailing" secondItem="GSs-Dr-507" secondAttribute="trailing" id="aQO-RS-uID"/>
+                            <constraint firstItem="cyl-X9-nzy" firstAttribute="trailing" secondItem="ZAq-QP-4PE" secondAttribute="trailing" constant="8" id="j6r-3h-RiD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cyl-X9-nzy"/>
                     </view>
                     <connections>
                         <outlet property="channelNameLabel" destination="VNB-lo-0m6" id="5cC-qO-q7X"/>
                         <outlet property="menuButton" destination="vku-Qu-b85" id="gPS-Du-miM"/>
+                        <outlet property="messageTextBox" destination="GSs-Dr-507" id="oeK-75-Kiq"/>
+                        <outlet property="sendButton" destination="ZAq-QP-4PE" id="HbE-F1-gVe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DTf-BF-aUk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -612,6 +635,7 @@
         <image name="closeButton" width="28" height="28"/>
         <image name="menuProfileIcon" width="99" height="99"/>
         <image name="profileDefault" width="192" height="192"/>
+        <image name="send" width="30" height="30"/>
         <image name="smackBack" width="28" height="28"/>
         <image name="smackBurger" width="40" height="40"/>
         <image name="smackLogo" width="48" height="40"/>

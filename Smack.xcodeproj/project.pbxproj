@@ -21,6 +21,9 @@
 		278446531F30581300461290 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278446511F30581300461290 /* ProfileVC.xib */; };
 		27AB35311F31388B00CE0FB4 /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AB352F1F31388B00CE0FB4 /* AddChannelVC.swift */; };
 		27AB35321F31388B00CE0FB4 /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AB35301F31388B00CE0FB4 /* AddChannelVC.xib */; };
+		27AB35341F3140D800CE0FB4 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AB35331F3140D800CE0FB4 /* SocketService.swift */; };
+		27AB35351F314A7600CE0FB4 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 341770E8EA4E4D111BB8B51C /* Pods_Smack.framework */; };
+		27AB35361F314A7600CE0FB4 /* Pods_Smack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 341770E8EA4E4D111BB8B51C /* Pods_Smack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		27B3D31C1F29640D00D1C9F2 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B3D31B1F29640D00D1C9F2 /* ChatVC.swift */; };
 		27B3D31E1F29641D00D1C9F2 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B3D31D1F29641D00D1C9F2 /* ChannelVC.swift */; };
 		27B3D3221F296F3800D1C9F2 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B3D3201F296ACE00D1C9F2 /* SWRevealViewController.m */; };
@@ -33,6 +36,20 @@
 		27F295991F294D0E006AE5FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F295981F294D0E006AE5FD /* Assets.xcassets */; };
 		27F2959C1F294D0E006AE5FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F2959A1F294D0E006AE5FD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27AB35371F314A7600CE0FB4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				27AB35361F314A7600CE0FB4 /* Pods_Smack.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2733964F1F3125F100992753 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
@@ -48,6 +65,7 @@
 		278446511F30581300461290 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProfileVC.xib; path = ../Controller/ProfileVC.xib; sourceTree = "<group>"; };
 		27AB352F1F31388B00CE0FB4 /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
 		27AB35301F31388B00CE0FB4 /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
+		27AB35331F3140D800CE0FB4 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
 		27B3D31B1F29640D00D1C9F2 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		27B3D31D1F29641D00D1C9F2 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		27B3D31F1F296ACD00D1C9F2 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -73,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AB35351F314A7600CE0FB4 /* Pods_Smack.framework in Frameworks */,
 				03A40A813D604D28D429B8AD /* Pods_Smack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,6 +105,7 @@
 				273CDCA81F2A60800031B819 /* AuthService.swift */,
 				273ED4241F2ADE31004A60D5 /* UserDataService.swift */,
 				2733964F1F3125F100992753 /* MessageService.swift */,
+				27AB35331F3140D800CE0FB4 /* SocketService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -218,6 +238,7 @@
 				27F2958C1F294D0E006AE5FD /* Resources */,
 				831B76A88CED2E6469516500 /* [CP] Embed Pods Frameworks */,
 				4D5A61C7E743FCA7439F7A72 /* [CP] Copy Pods Resources */,
+				27AB35371F314A7600CE0FB4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -330,6 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AB35341F3140D800CE0FB4 /* SocketService.swift in Sources */,
 				278446521F30581300461290 /* ProfileVC.swift in Sources */,
 				273396541F312FE100992753 /* ChannelCell.swift in Sources */,
 				27B3D31C1F29640D00D1C9F2 /* ChatVC.swift in Sources */,

@@ -45,3 +45,4 @@ let BEARER_HEADER = [
     "Authorization":"Bearer \(AuthService.instance.authToken)",
     "Content-Type": "application/json; charset=utf-8"
 ]
+

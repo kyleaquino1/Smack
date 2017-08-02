@@ -17,6 +17,7 @@
 		273ED4271F2AE6B2004A60D5 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ED4261F2AE6B2004A60D5 /* AvatarPickerVC.swift */; };
 		273ED4291F2AE80C004A60D5 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ED4281F2AE80C004A60D5 /* AvatarCell.swift */; };
 		273ED42B1F2AF314004A60D5 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273ED42A1F2AF314004A60D5 /* CircleImage.swift */; };
+		2781607A1F315D05008F1BD8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278160791F315D05008F1BD8 /* Message.swift */; };
 		278446521F30581300461290 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278446501F30581300461290 /* ProfileVC.swift */; };
 		278446531F30581300461290 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278446511F30581300461290 /* ProfileVC.xib */; };
 		27AB35311F31388B00CE0FB4 /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AB352F1F31388B00CE0FB4 /* AddChannelVC.swift */; };
@@ -61,6 +62,7 @@
 		273ED4261F2AE6B2004A60D5 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		273ED4281F2AE80C004A60D5 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		273ED42A1F2AF314004A60D5 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		278160791F315D05008F1BD8 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		278446501F30581300461290 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		278446511F30581300461290 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProfileVC.xib; path = ../Controller/ProfileVC.xib; sourceTree = "<group>"; };
 		27AB352F1F31388B00CE0FB4 /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				273396511F31263000992753 /* Channel.swift */,
+				278160791F315D05008F1BD8 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				27B3D31C1F29640D00D1C9F2 /* ChatVC.swift in Sources */,
 				273396501F3125F100992753 /* MessageService.swift in Sources */,
 				273ED4271F2AE6B2004A60D5 /* AvatarPickerVC.swift in Sources */,
+				2781607A1F315D05008F1BD8 /* Message.swift in Sources */,
 				273396521F31263000992753 /* Channel.swift in Sources */,
 				273ED4231F2AD4C3004A60D5 /* RoundedButton.swift in Sources */,
 				273ED42B1F2AF314004A60D5 /* CircleImage.swift in Sources */,

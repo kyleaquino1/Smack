@@ -76,7 +76,7 @@ class ChatVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
                 if numberOfTypers > 1 {
                     verb = "are"
                 }
-                self.typingUsersLabel.text = "\(names) \(verb) typing a message"
+                self.typingUsersLabel.text = "\(names) \(verb) typing a message..."
             } else {
                 self.typingUsersLabel.text = ""
             }
@@ -130,6 +130,7 @@ class ChatVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
                 
                 if success {
                     self.messageTextBox.text = ""
+                    SocketService.instance.socket.emit("stopType", UserDataService.instance.name, channelId)
                 }
                 
                 
